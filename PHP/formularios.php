@@ -1,7 +1,8 @@
+<!-- Cabeçalho do HTML -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gerenciamento de Salas</title>
+    <title>Gerenciar as Salas</title>
 </head>
 <body>
     <h1>Gerenciamento de Salas</h1>
@@ -35,7 +36,7 @@
     <!-- Exibir lista de salas -->
     <h2>Lista de Salas</h2>
     <?php
-    // Configurações de conexão com o banco de dados
+    // Configurações de conexão com o banco de dados (place holder)
     $servername = "localhost";
     $username = "root";
     $password = "";
@@ -48,8 +49,8 @@
     if ($conn->connect_error) {
         die("Conexão falhou: " . $conn->connect_error);
     }
-
-    // Código para adicionar sala
+    // Scripts dos formularios PHP para as salas
+    // Código para adicionar sala (placeholder)
     if (isset($_POST['adicionar_sala'])) {
         $nome = $_POST['nome'];
         $descricao = $_POST['descricao'];
@@ -64,7 +65,7 @@
         }
     }
 
-    // Código para reservar sala
+    // Código para reservar sala (placeholder)
     if (isset($_POST['reservar_sala'])) {
         $sala_id = $_POST['sala_id'];
         $usuario = $_POST['usuario'];
