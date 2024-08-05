@@ -1,4 +1,5 @@
 <?php
+include 'conexao.php';
 // Código para adicionar sala (placeholder)
     if (isset($_POST['adicionar_sala'])) {
         $nome = $_POST['nome'];
