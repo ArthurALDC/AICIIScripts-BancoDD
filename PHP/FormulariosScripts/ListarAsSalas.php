@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
             $pavilhao_atual = $pavilhao;
         }
         
-        echo "<li>Sala: " . $row['nome'] . " - Capacidade: " . $row['capacidade'] . " - Disponível: " . ($row['disponivel'] ? 'Sim' : 'Não') . "</li>";
+        echo "<li>Sala: " . $row['nome'] . " - Disponível: " . ($row['disponivel'] ? 'Sim' : 'Não') . "</li>";
     }
     echo "</ul>"; // Fecha a última lista
 } else {
